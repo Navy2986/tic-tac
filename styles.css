@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table {
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    width: 600px;
+}
+
+td {
+    border-color: aqua;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#boardContainer {
+    margin: 0px;
+    height: 600px;
+}
+
+div {
+    background-color: black;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#messageBoard {
+    font-size: 30px;
+    color: white;
+    border-color: aqua;
+    border-width: 1px;
+    border-style: solid;
+    height: 600px;
+}
+
+button {
+    font-size:  1.5rem;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    padding: 0.7rem 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+}

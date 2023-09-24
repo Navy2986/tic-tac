@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tic-Tac-Toe Game</title>
+  <meta charset="UTF-8" />
+  <script src="Tic_Tac.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <div style="width: 30%;">
+      <div id="messageBoard">
+        <span id="result"></span>
+        <button id="restart">Restart Game</button>
+      </div>
+    </div>
+    <div style="width: 70%;">
+      <table id="boardGame">
+        <tr>
+          <td>
+            <div id="div0" style="width: 200px; height: 200px; text-align: center;" onclick="moves(0, event)">
+            </div>
+          </td>
+          <td>
+            <div id="div1" style="width: 200px; height: 200px; text-align: center;" onclick="moves(1, event)">
+            </div>
+          </td>
+          <td>
+            <div id="div2" style="width: 200px; height: 200px; text-align: center;" onclick="moves(2, event)">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div id="div3" style="width: 200px; height: 200px; text-align: center;" onclick="moves(3, event)">
+            </div>
+          </td>
+          <td>
+            <div id="div4" style="width: 200px; height: 200px; text-align: center;" onclick="moves(4, event)">
+            </div>
+          </td>
+          <td>
+            <div id="div5" style="width: 200px; height: 200px; text-align: center;" onclick="moves(5, event)">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div id="div6" style="width: 200px; height: 200px; text-align: center;" onclick="moves(6, event)">
+            </div>
+          </td>
+          <td>
+            <div id="div7" style="width: 200px; height: 200px; text-align: center;" onclick="moves(7, event)">
+            </div>
+          </td>
+          <td>
+            <div id="div8" style="width: 200px; height: 200px; text-align: center;" onclick="moves(8, event)">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+<html>
